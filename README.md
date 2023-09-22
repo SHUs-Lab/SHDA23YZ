@@ -8,6 +8,8 @@ Then, run object_detection.py to train SPPNet.
 Also, you can run sppnet_search.py to search for neural architecuture.
 
 # SPPNet parameters are defined below:
+
+
 =================================================================
 Layer (type:depth-idx)                   Param #
 =================================================================
@@ -36,14 +38,15 @@ Trainable params: 22,656,130
 Non-trainable params: 0
 =================================================================
 
-## For NAS search space
+
+# For NAS search space
 We explore the following search spaces for all three components:
-# Feature Engineering: We define the search space for the filter
+## Feature Engineering: We define the search space for the filter
 size of the first convolutional layer as ranging from 1 to 9 (1,
 3, 5, 7, 9).
-# SPP Layer: We experiment with five different filter sizes for
+## SPP Layer: We experiment with five different filter sizes for
 the first SPP (Spatial Pyramid Pooling) layer, spanning from
 1 to 5 (1, 2, 3, 4, 5).
-# Fully-Connected Layers: We customize the feature size for
+## Fully-Connected Layers: We customize the feature size for
 two fully-connected layers within the following ranges: 128,
 256, 512, 1024, 2048, 4096, and 8192.
