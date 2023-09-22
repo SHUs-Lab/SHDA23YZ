@@ -59,12 +59,12 @@ Also, you can run sppnet_search.py to search for neural architecture.
 
 # For NAS search space
 We explore the following search spaces for all three components:
-## Feature Engineering: We define the search space for the filter
-Size of the first convolutional layer as ranging from 1 to 9 (1,
+## Feature Engineering: 
+We define the search space for the filter size of the first convolutional layer as ranging from 1 to 9 (1,
 3, 5, 7, 9).
-## SPP Layer: We experiment with five different filter sizes for
-The first SPP (Spatial Pyramid Pooling) layer, spanning from
+## SPP Layer: 
+We experiment with five different filter sizes for the first SPP (Spatial Pyramid Pooling) layer, spanning from
 1 to 5 (1, 2, 3, 4, 5).
-## Fully-Connected Layers: We customize the feature size for
-Two fully-connected layers within the following ranges: 128,
+## Fully-Connected Layers: 
+We customize the feature size for two fully-connected layers within the following ranges: 128,
 256, 512, 1024, 2048, 4096, and 8192.
