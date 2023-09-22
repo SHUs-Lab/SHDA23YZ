@@ -14,7 +14,7 @@ Firstly, download and unzip the [data.zip](https://drive.google.com/file/d/1kjPu
    ```
 ## Clone this repo:
    ```
-   git clone [https://github.com/BingyaoHuang/SPAA](https://github.com/SHUs-Lab/SHDA23YZ.git)
+   git clone https://github.com/SHUs-Lab/SHDA23YZ.git
    cd SHDA23YZ
    ```
 ## Install required packages by typing
