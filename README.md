@@ -9,34 +9,34 @@ Also, you can run sppnet_search.py to search for neural architecuture.
 
 # SPPNet parameters are defined below:
 
+## Model Summary
 
-=================================================================
-Layer (type:depth-idx)                   Param #
-=================================================================
-SPPNet                                   --
-├─Sequential: 1-1                        --
-│    └─Conv2d: 2-1                       1,792
-│    └─ReLU: 2-2                         --
-│    └─MaxPool2d: 2-3                    --
-│    └─Conv2d: 2-4                       73,856
-│    └─ReLU: 2-5                         --
-│    └─MaxPool2d: 2-6                    --
-│    └─Conv2d: 2-7                       295,168
-│    └─ReLU: 2-8                         --
-│    └─MaxPool2d: 2-9                    --
-├─ModuleList: 1-2                        --
-│    └─AdaptiveMaxPool2d: 2-10           --
-│    └─AdaptiveMaxPool2d: 2-11           --
-│    └─AdaptiveMaxPool2d: 2-12           --
-├─Sequential: 1-3                        --
-│    └─Linear: 2-13                      22,283,264
-│    └─ReLU: 2-14                        --
-│    └─Linear: 2-15                      2,050
-=================================================================
-Total params: 22,656,130
-Trainable params: 22,656,130
-Non-trainable params: 0
-=================================================================
+| Layer (type:depth-idx)                | Param #         |
+|---------------------------------------|-----------------|
+| SPPNet                                |                 |
+| ├─Sequential: 1-1                    |                 |
+| │   └─Conv2d: 2-1                    | 1,792           |
+| │   └─ReLU: 2-2                      |                 |
+| │   └─MaxPool2d: 2-3                 |                 |
+| │   └─Conv2d: 2-4                    | 73,856          |
+| │   └─ReLU: 2-5                      |                 |
+| │   └─MaxPool2d: 2-6                 |                 |
+| │   └─Conv2d: 2-7                    | 295,168         |
+| │   └─ReLU: 2-8                      |                 |
+| │   └─MaxPool2d: 2-9                 |                 |
+| ├─ModuleList: 1-2                    |                 |
+| │   └─AdaptiveMaxPool2d: 2-10        |                 |
+| │   └─AdaptiveMaxPool2d: 2-11        |                 |
+| │   └─AdaptiveMaxPool2d: 2-12        |                 |
+| ├─Sequential: 1-3                    |                 |
+| │   └─Linear: 2-13                   | 22,283,264      |
+| │   └─ReLU: 2-14                     |                 |
+| │   └─Linear: 2-15                   | 2,050           |
+|---------------------------------------|-----------------|
+| Total params:                         | 22,656,130      |
+| Trainable params:                     | 22,656,130      |
+| Non-trainable params:                 | 0               |
+
 
 
 # For NAS search space
